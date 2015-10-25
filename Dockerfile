@@ -1,4 +1,4 @@
-FROM node:latest
+FROM mhart/alpine-node:4.2.1
 
 ADD . /app
 WORKDIR /app
