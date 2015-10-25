@@ -10,4 +10,5 @@ ENV PORT 80
 
 EXPOSE 80
 
+ENTRYPOINT "/bin/sh"
 CMD ["node", "server.js"]
