@@ -35,7 +35,7 @@ app.get('/', function (req, res) {
 	r.incr('counter', function (err, data) {
 		if(err){return res.status(500).send(err);}
 
-		res.send('Visits '+ data);
+		res.send('All Visits '+ data);
 	});
 });
 
